@@ -4,9 +4,9 @@
 # 3 2 4 -> yes
 # 3 2 1 -> no
 
-n = 120
-m = 30
-k = 150
+n = int(input('n = '))
+m = int(input('m = '))
+k = int(input('k = '))
 if k > n and k > m:
     print('incorrect data.')
 else:
