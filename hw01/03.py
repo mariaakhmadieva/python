@@ -18,3 +18,9 @@ if 99999 < num < 1000000:
     print('Счастливый' if (first+second+third) == (fourth+fifth+sixth) else 'Обычный')
 else:
     print('Введено некорректное число.')
+
+# ****
+# num = list(map(int, list(input('Введите номер билета: '))))
+# left = sum(num[0:3])
+# right = sum(num[3:0])
+# print('Счастливый' if left == right else 'Обычный')
