@@ -7,6 +7,6 @@ mx = int(input('max: '))
 
 lst_2 = []
 for i in range(len(lst_1)):
-    if mn <= lst_1[i] <= mx:
+    if lst_1[i] <= mx and lst_1[i] >= mn:
         lst_2.append(i)
 print(lst_2)
