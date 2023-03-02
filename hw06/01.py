@@ -7,6 +7,8 @@ a = int(input('Первый элемент: '))
 d = int(input('Шаг: '))
 n = int(input('Количество элементов: '))
 
+lst = []
 for i in range(n):
-    print(a + i * d)
+    lst.append(i * d + a)
+print(*lst)
 
